@@ -1,0 +1,21 @@
+.player-container {
+  height: 100vh;
+
+  .player {
+    width: 100vw;
+    height: 80px;
+  }
+
+  .song-desc {
+    width: 35ch;
+    margin: auto;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 0;
+  }
+}
