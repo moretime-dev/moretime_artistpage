@@ -1,17 +1,42 @@
 section {
-  display: inline-block;
+  width: 100vw;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+
+  .hero-img {
+    background-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 40vh;
+  }
 
   h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: $fw-b;
-    text-align: center;
     letter-spacing: 0.2em;
+    margin-top: 0.6em;
+    margin-bottom: 0.3em;
   }
-}
 
-.hero-img {
-  width: 100vw;
-  height: 30vh;
-  object-fit: cover;
+  h3 {
+    font-family: $ff-s;
+    font-weight: $fw-m;
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
+  .can-you-player {
+    width: 100vw;
+    height: 80px;
+  }
+
+  .can-you-cover {
+    background-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 20vh;
+  }
 }
