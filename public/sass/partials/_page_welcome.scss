@@ -1,0 +1,17 @@
+section {
+  display: inline-block;
+  justify-content: center;
+
+  h1 {
+    font-size: 4rem;
+    font-weight: $fw-b;
+    text-align: center;
+    letter-spacing: 0.2em;
+  }
+}
+
+.hero-img {
+  width: 100vw;
+  height: 30vh;
+  object-fit: cover;
+}
