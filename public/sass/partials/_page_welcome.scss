@@ -5,11 +5,20 @@ section {
   justify-content: center;
   flex-direction: column;
 
+  @media (min-width: 550px) {
+    display: block;
+    height: 170vh;
+  }
+
   .hero-img {
     background-position: center;
     object-fit: cover;
     width: 100%;
     height: 40vh;
+
+    @media (min-width: 550px) {
+      height: 100vh;
+    }
   }
 
   .text {
@@ -31,11 +40,27 @@ section {
       margin-top: 0;
       margin-bottom: 2.75em;
     }
+    @media (min-width: 550px) {
+      h1 {
+        font-size: 1.7rem;
+        text-align: center;
+      }
+      h3 {
+        font-size: 0.8rem;
+        text-align: center;
+      }
+    }
   }
 
   .can-you-player {
     width: 100vw;
     height: 80px;
+
+    @media (min-width: 550px) {
+      display: block;
+      margin: auto;
+      width: 60%;
+    }
   }
 
   .can-you-cover {
@@ -43,5 +68,9 @@ section {
     object-fit: cover;
     width: 100%;
     height: 20vh;
+
+    @media (min-width: 550px) {
+      display: none;
+    }
   }
 }

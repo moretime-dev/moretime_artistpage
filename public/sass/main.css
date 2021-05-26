@@ -2,7 +2,6 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
@@ -26,12 +25,25 @@ section {
           flex-direction: column;
 }
 
+@media (min-width: 550px) {
+  section {
+    display: block;
+    height: 170vh;
+  }
+}
+
 section .hero-img {
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
   height: 40vh;
+}
+
+@media (min-width: 550px) {
+  section .hero-img {
+    height: 100vh;
+  }
 }
 
 section .text {
@@ -55,9 +67,28 @@ section .text h3 {
   margin-bottom: 2.75em;
 }
 
+@media (min-width: 550px) {
+  section .text h1 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  section .text h3 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
+
 section .can-you-player {
   width: 100vw;
   height: 80px;
+}
+
+@media (min-width: 550px) {
+  section .can-you-player {
+    display: block;
+    margin: auto;
+    width: 60%;
+  }
 }
 
 section .can-you-cover {
@@ -66,6 +97,12 @@ section .can-you-cover {
      object-fit: cover;
   width: 100%;
   height: 20vh;
+}
+
+@media (min-width: 550px) {
+  section .can-you-cover {
+    display: none;
+  }
 }
 
 .about-container {
@@ -80,10 +117,28 @@ section .can-you-cover {
           justify-content: center;
 }
 
+@media (min-width: 550px) {
+  .about-container {
+    display: block;
+    height: 200vh;
+  }
+}
+
 .about-container .about {
   height: 80vh;
   width: 35ch;
   font-size: 1rem;
+}
+
+.about-container .about h2 {
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .about-container .about {
+    display: block;
+    margin: auto;
+  }
 }
 
 .about-container .social-media-icons {
@@ -95,12 +150,42 @@ section .can-you-cover {
           justify-content: space-between;
 }
 
+.about-container .social-media-icons h3 {
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .about-container .social-media-icons {
+    display: block;
+    margin: 15em auto;
+  }
+  .about-container .social-media-icons .icon {
+    width: 10vw;
+  }
+}
+
+.about-container .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 .about-container .icon {
   width: 15vw;
 }
 
 .player-container {
   height: 100vh;
+  margin-top: 3em;
+}
+
+@media (min-width: 550px) {
+  .player-container {
+    height: 200vh;
+  }
 }
 
 .player-container .player {
@@ -108,17 +193,22 @@ section .can-you-cover {
   height: 80px;
 }
 
+@media (min-width: 550px) {
+  .player-container .player {
+    display: block;
+    margin: auto;
+    width: 60vw;
+  }
+}
+
 .player-container .song-desc {
   width: 35ch;
   margin: auto;
+  margin-bottom: 3em;
 }
 
 .player-container h2 {
-  margin-bottom: 0;
-}
-
-.player-container p {
-  margin-top: 0;
+  text-align: center;
 }
 
 .gallery {
@@ -129,6 +219,12 @@ section .can-you-cover {
       grid-template-columns: auto auto;
 }
 
+@media (min-width: 550px) {
+  .gallery {
+    height: 200vh;
+  }
+}
+
 .gallery-img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -136,11 +232,14 @@ section .can-you-cover {
   height: 33.3333vh;
 }
 
-.comments {
-  height: auto;
+@media (min-width: 550px) {
+  .gallery-img {
+    height: 66.666vh;
+  }
 }
 
-.comments form {
+.comments {
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -184,6 +283,35 @@ section .can-you-cover {
   margin-top: 2em;
   width: 30ch;
   font-family: "Inria", serif;
+}
+
+.youtube-videos {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+@media (min-width: 550px) {
+  .youtube-videos {
+    height: 200vh;
+  }
+}
+
+.youtube-videos .youtube-video {
+  width: 100%;
+  height: 31%;
+}
+
+@media (min-width: 550px) {
+  .youtube-videos .youtube-video {
+    height: 45%;
+  }
 }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */

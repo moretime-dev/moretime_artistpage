@@ -2,10 +2,18 @@
   height: 100vh;
   display: grid;
   grid-template-columns: auto auto;
+
+  @media (min-width: 550px) {
+    height: 200vh;
+  }
 }
 
 .gallery-img {
   object-fit: cover;
   width: 50vw;
   height: 33.3333vh;
+
+  @media (min-width: 550px) {
+    height: 66.666vh;
+  }
 }

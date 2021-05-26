@@ -1,21 +1,29 @@
 .player-container {
   height: 100vh;
+  margin-top: 3em;
+
+  @media (min-width: 550px) {
+    height: 200vh;
+  }
 
   .player {
     width: 100vw;
     height: 80px;
+
+    @media (min-width: 550px) {
+      display: block;
+      margin: auto;
+      width: 60vw;
+    }
   }
 
   .song-desc {
     width: 35ch;
     margin: auto;
+    margin-bottom: 3em;
   }
 
   h2 {
-    margin-bottom: 0;
-  }
-
-  p {
-    margin-top: 0;
+    text-align: center;
   }
 }

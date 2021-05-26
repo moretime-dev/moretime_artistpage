@@ -3,22 +3,49 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  @media (min-width: 550px) {
+    display: block;
+    height: 200vh;
+  }
 
   .about {
     height: 80vh;
     width: 35ch;
     font-size: 1rem;
+
+    h2 {
+      text-align: center;
+    }
+
+    @media (min-width: 550px) {
+      display: block;
+      margin: auto;
+    }
   }
 
   .social-media-icons {
     height: 20vh;
     width: 80vw;
     display: block;
-
     justify-content: space-between;
-    // align-items: center;
-  }
 
+    h3 {
+      text-align: center;
+    }
+
+    @media (min-width: 550px) {
+      display: block;
+      margin: 15em auto;
+
+      .icon {
+        width: 10vw;
+      }
+    }
+  }
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+  }
   .icon {
     width: 15vw;
   }

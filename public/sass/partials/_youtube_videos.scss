@@ -1,0 +1,20 @@
+.youtube-videos {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4em;
+  margin-bottom: 4em;
+
+  @media (min-width: 550px) {
+    height: 200vh;
+  }
+
+  .youtube-video {
+    width: 100%;
+    height: 31%;
+
+    @media (min-width: 550px) {
+      height: 45%;
+    }
+  }
+}
