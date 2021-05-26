@@ -129,17 +129,15 @@ section .can-you-cover {
   height: 100vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 12em 12em;
-      grid-template-columns: 12em 12em;
-  -ms-grid-rows: 50% 5em;
-      grid-template-rows: 50% 5em;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
 }
 
-.gallery .gallery-img {
+.gallery-img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 50vw;
-  height: 33vh;
+  height: 33.3333vh;
 }
 
 .comments {
