@@ -10,7 +10,7 @@ body {
 }
 
 section {
-  width: 100vw;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,15 +89,10 @@ section .can-you-cover {
 .about-container .social-media-icons {
   height: 20vh;
   width: 80vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .about-container .icon {
@@ -142,12 +137,7 @@ section .can-you-cover {
 }
 
 .comments {
-  height: 100vh;
-  margin-top: 0;
-}
-
-.comments h2 {
-  margin-top: 8em;
+  height: auto;
 }
 
 .comments form {
@@ -190,10 +180,8 @@ section .can-you-cover {
 }
 
 .comments .comment {
-  background: #f3f3f3;
   border-radius: 3em;
-  margin-top: 4em;
-  padding: 2em;
+  margin-top: 2em;
   width: 30ch;
   font-family: "Inria", serif;
 }

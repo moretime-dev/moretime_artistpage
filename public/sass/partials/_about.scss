@@ -7,16 +7,16 @@
   .about {
     height: 80vh;
     width: 35ch;
-    // margin: auto;
     font-size: 1rem;
   }
 
   .social-media-icons {
     height: 20vh;
     width: 80vw;
-    display: flex;
+    display: block;
+
     justify-content: space-between;
-    align-items: center;
+    // align-items: center;
   }
 
   .icon {
