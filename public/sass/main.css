@@ -198,7 +198,7 @@ section .can-you-cover {
 
 @media (min-width: 1000px) {
   .about-container {
-    height: 100vh;
+    height: 75em;
   }
 }
 
@@ -224,7 +224,7 @@ section .can-you-cover {
 
 @media (min-width: 1000px) {
   .about-container .about {
-    height: 80vh;
+    height: 30em;
     font-size: 2rem;
   }
 }
@@ -328,9 +328,9 @@ section .can-you-cover {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
   .player-container {
-    height: 260vh;
+    height: 45em;
     font-size: 1.5rem;
   }
 }
@@ -350,12 +350,12 @@ section .can-you-cover {
 
 .player-container .song-desc {
   width: 35ch;
-  margin: auto;
+  margin: 0 auto 2em auto;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 1000px) {
   .player-container .song-desc {
-    margin-bottom: 3em;
+    font-size: 2rem;
   }
 }
 
@@ -377,9 +377,15 @@ section .can-you-cover {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
   .gallery {
-    height: 240vh;
+    height: 60em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .gallery {
+    height: 99em;
   }
 }
 
@@ -396,9 +402,15 @@ section .can-you-cover {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
   .gallery-img {
-    height: 80vh;
+    height: 20em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .gallery-img {
+    height: 33em;
   }
 }
 
@@ -419,6 +431,12 @@ section .can-you-cover {
   margin-bottom: 2em;
 }
 
+@media (min-width: 1000px) {
+  .comments h2 {
+    font-size: 2em;
+  }
+}
+
 .comments textarea {
   height: 8em;
 }
@@ -427,6 +445,12 @@ section .can-you-cover {
   display: block;
   margin-top: 1em;
   color: #606060;
+}
+
+@media (min-width: 1000px) {
+  .comments label {
+    font-size: 2rem;
+  }
 }
 
 .comments input,
@@ -443,10 +467,19 @@ section .can-you-cover {
           box-sizing: border-box;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
   .comments input,
   .comments textarea {
-    width: 60vw;
+    width: 30em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .comments input,
+  .comments textarea {
+    padding: 0;
+    margin-top: 0.7em;
+    font-size: 2rem;
   }
 }
 
@@ -462,9 +495,15 @@ section .can-you-cover {
   font-family: "Inria", serif;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
   .comments .comment {
     font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .comments .comment {
+    font-size: 2rem;
   }
 }
 
@@ -476,7 +515,6 @@ section .can-you-cover {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-bottom: 4em;
 }
 
 @media (min-width: 550px) {
@@ -485,9 +523,15 @@ section .can-you-cover {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
   .youtube-videos {
-    height: 250vh;
+    height: 60em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .youtube-videos {
+    height: 80em;
   }
 }
 
@@ -502,10 +546,17 @@ section .can-you-cover {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
   .youtube-videos .youtube-video {
-    width: 80%;
-    height: 100%;
+    height: 30em;
+    margin-bottom: 4em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .youtube-videos .youtube-video {
+    width: 60em;
+    height: 60em;
     margin-bottom: 4em;
   }
 }

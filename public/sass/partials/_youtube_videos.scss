@@ -2,14 +2,18 @@
   height: 100vh;
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 4em;
+  // margin-bottom: 4em;
 
   @media (min-width: 550px) {
     height: 200vh;
   }
 
-  @media (min-width: 800px) {
-    height: 250vh;
+  @media (min-width: 750px) {
+    height: 60em;
+  }
+
+  @media (min-width: 1000px) {
+    height: 80em;
   }
 
   .youtube-video {
@@ -20,9 +24,14 @@
       height: 45%;
     }
 
-    @media (min-width: 800px) {
-      width: 80%;
-      height: 100%;
+    @media (min-width: 750px) {
+      height: 30em;
+      margin-bottom: 4em;
+    }
+
+    @media (min-width: 1000px) {
+      width: 60em;
+      height: 60em;
       margin-bottom: 4em;
     }
   }
