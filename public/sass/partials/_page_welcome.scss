@@ -11,7 +11,7 @@ section {
   }
 
   @media (min-width: 750px) {
-    height: 180vh;
+    height: 55em;
   }
 
   @media (min-width: 1000px) {
@@ -29,7 +29,7 @@ section {
     }
 
     @media (min-width: 750px) {
-      height: 50vh;
+      height: 23em;
     }
 
     @media (min-width: 1000px) {
@@ -44,7 +44,7 @@ section {
     height: 30vh;
 
     @media (min-width: 750px) {
-      height: 50vh;
+      height: 10em;
     }
 
     @media (min-width: 1000px) {
@@ -69,11 +69,9 @@ section {
     }
     @media (min-width: 550px) {
       h1 {
-        font-size: 1.7rem;
         text-align: center;
       }
       h3 {
-        font-size: 0.8rem;
         text-align: center;
       }
     }

@@ -34,7 +34,7 @@ section {
 
 @media (min-width: 750px) {
   section {
-    height: 180vh;
+    height: 55em;
   }
 }
 
@@ -60,7 +60,7 @@ section .hero-img {
 
 @media (min-width: 750px) {
   section .hero-img {
-    height: 50vh;
+    height: 23em;
   }
 }
 
@@ -79,7 +79,7 @@ section .text {
 
 @media (min-width: 750px) {
   section .text {
-    height: 50vh;
+    height: 10em;
   }
 }
 
@@ -108,11 +108,9 @@ section .text h3 {
 
 @media (min-width: 550px) {
   section .text h1 {
-    font-size: 1.7rem;
     text-align: center;
   }
   section .text h3 {
-    font-size: 0.8rem;
     text-align: center;
   }
 }
@@ -192,9 +190,9 @@ section .can-you-cover {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
   .about-container {
-    height: 240vh;
+    height: 55em;
   }
 }
 
@@ -217,9 +215,9 @@ section .can-you-cover {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
   .about-container .about {
-    height: 130vh;
+    height: 20em;
     font-size: 1.5rem;
   }
 }

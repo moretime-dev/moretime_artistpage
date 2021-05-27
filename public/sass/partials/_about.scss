@@ -10,8 +10,8 @@
     height: 200vh;
   }
 
-  @media (min-width: 800px) {
-    height: 240vh;
+  @media (min-width: 750px) {
+    height: 55em;
   }
 
   @media (min-width: 1000px) {
@@ -28,8 +28,8 @@
       margin: auto;
     }
 
-    @media (min-width: 800px) {
-      height: 130vh;
+    @media (min-width: 750px) {
+      height: 20em;
       font-size: 1.5rem;
     }
 
