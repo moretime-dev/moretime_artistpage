@@ -2,11 +2,14 @@
   height: 100vh;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 4em;
   margin-bottom: 4em;
 
   @media (min-width: 550px) {
     height: 200vh;
+  }
+
+  @media (min-width: 800px) {
+    height: 250vh;
   }
 
   .youtube-video {
@@ -15,6 +18,12 @@
 
     @media (min-width: 550px) {
       height: 45%;
+    }
+
+    @media (min-width: 800px) {
+      width: 80%;
+      height: 100%;
+      margin-bottom: 4em;
     }
   }
 }

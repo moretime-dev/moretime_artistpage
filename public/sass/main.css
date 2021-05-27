@@ -32,6 +32,18 @@ section {
   }
 }
 
+@media (min-width: 750px) {
+  section {
+    height: 180vh;
+  }
+}
+
+@media (min-width: 1000px) {
+  section {
+    height: 110vh;
+  }
+}
+
 section .hero-img {
   background-position: center;
   -o-object-fit: cover;
@@ -46,8 +58,35 @@ section .hero-img {
   }
 }
 
+@media (min-width: 750px) {
+  section .hero-img {
+    height: 50vh;
+  }
+}
+
+@media (min-width: 1000px) {
+  section .hero-img {
+    display: block;
+    margin: auto;
+    width: 60vw;
+    height: 50vh;
+  }
+}
+
 section .text {
   height: 30vh;
+}
+
+@media (min-width: 750px) {
+  section .text {
+    height: 50vh;
+  }
+}
+
+@media (min-width: 1000px) {
+  section .text {
+    height: 20vh;
+  }
 }
 
 section .text h1 {
@@ -78,6 +117,17 @@ section .text h3 {
   }
 }
 
+@media (min-width: 750px) {
+  section .text h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  section .text h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
 section .can-you-player {
   width: 100vw;
   height: 80px;
@@ -87,6 +137,14 @@ section .can-you-player {
   section .can-you-player {
     display: block;
     margin: auto;
+    width: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  section .can-you-player {
+    display: block;
+    margin: 0 auto;
     width: 60%;
   }
 }
@@ -105,6 +163,15 @@ section .can-you-cover {
   }
 }
 
+@media (min-width: 750px) {
+  section .can-you-cover {
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 15%;
+  }
+}
+
 .about-container {
   height: 100vh;
   display: -webkit-box;
@@ -120,7 +187,20 @@ section .can-you-cover {
 @media (min-width: 550px) {
   .about-container {
     display: block;
+    margin: auto;
     height: 200vh;
+  }
+}
+
+@media (min-width: 800px) {
+  .about-container {
+    height: 240vh;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-container {
+    height: 100vh;
   }
 }
 
@@ -130,10 +210,6 @@ section .can-you-cover {
   font-size: 1rem;
 }
 
-.about-container .about h2 {
-  text-align: center;
-}
-
 @media (min-width: 550px) {
   .about-container .about {
     display: block;
@@ -141,22 +217,49 @@ section .can-you-cover {
   }
 }
 
+@media (min-width: 800px) {
+  .about-container .about {
+    height: 130vh;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-container .about {
+    height: 80vh;
+    font-size: 2rem;
+  }
+}
+
+.about-container .about h2 {
+  text-align: center;
+}
+
 .about-container .social-media-icons {
-  height: 20vh;
-  width: 80vw;
   display: block;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  margin: auto;
+  height: 20vh;
 }
 
 .about-container .social-media-icons h3 {
   text-align: center;
+  margin-left: -1.3em;
+}
+
+@media (min-width: 800px) {
+  .about-container .social-media-icons h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-container .social-media-icons h3 {
+    font-size: 3rem;
+  }
 }
 
 @media (min-width: 550px) {
   .about-container .social-media-icons {
-    display: block;
     margin: 15em auto;
   }
   .about-container .social-media-icons .icon {
@@ -164,17 +267,56 @@ section .can-you-cover {
   }
 }
 
+@media (min-width: 800px) {
+  .about-container .social-media-icons {
+    width: 60vw;
+  }
+  .about-container .social-media-icons .icon {
+    width: 7vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-container .social-media-icons {
+    margin: auto;
+  }
+}
+
 .about-container .icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  width: 55vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (min-width: 550px) {
+  .about-container .icons {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .about-container .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .about-container .icon {
   width: 15vw;
+}
+
+@media (min-width: 800px) {
+  .about-container .icon {
+    margin-right: 2em;
+  }
 }
 
 .player-container {
@@ -188,6 +330,13 @@ section .can-you-cover {
   }
 }
 
+@media (min-width: 800px) {
+  .player-container {
+    height: 260vh;
+    font-size: 1.5rem;
+  }
+}
+
 .player-container .player {
   width: 100vw;
   height: 80px;
@@ -196,7 +345,7 @@ section .can-you-cover {
 @media (min-width: 550px) {
   .player-container .player {
     display: block;
-    margin: auto;
+    margin: 0 auto 2em auto;
     width: 60vw;
   }
 }
@@ -204,7 +353,12 @@ section .can-you-cover {
 .player-container .song-desc {
   width: 35ch;
   margin: auto;
-  margin-bottom: 3em;
+}
+
+@media (min-width: 550px) {
+  .player-container .song-desc {
+    margin-bottom: 3em;
+  }
 }
 
 .player-container h2 {
@@ -225,6 +379,12 @@ section .can-you-cover {
   }
 }
 
+@media (min-width: 800px) {
+  .gallery {
+    height: 240vh;
+  }
+}
+
 .gallery-img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -238,6 +398,12 @@ section .can-you-cover {
   }
 }
 
+@media (min-width: 800px) {
+  .gallery-img {
+    height: 80vh;
+  }
+}
+
 .comments {
   height: auto;
   display: -webkit-box;
@@ -247,6 +413,12 @@ section .can-you-cover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 4em;
+}
+
+.comments h2 {
+  text-align: center;
+  margin-bottom: 2em;
 }
 
 .comments textarea {
@@ -273,6 +445,13 @@ section .can-you-cover {
           box-sizing: border-box;
 }
 
+@media (min-width: 800px) {
+  .comments input,
+  .comments textarea {
+    width: 60vw;
+  }
+}
+
 .comments input:focus,
 .comments textarea:focus {
   outline: 1px solid #606060;
@@ -285,6 +464,12 @@ section .can-you-cover {
   font-family: "Inria", serif;
 }
 
+@media (min-width: 800px) {
+  .comments .comment {
+    font-size: 1.5rem;
+  }
+}
+
 .youtube-videos {
   height: 100vh;
   display: -webkit-box;
@@ -293,13 +478,18 @@ section .can-you-cover {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-top: 4em;
   margin-bottom: 4em;
 }
 
 @media (min-width: 550px) {
   .youtube-videos {
     height: 200vh;
+  }
+}
+
+@media (min-width: 800px) {
+  .youtube-videos {
+    height: 250vh;
   }
 }
 
@@ -311,6 +501,14 @@ section .can-you-cover {
 @media (min-width: 550px) {
   .youtube-videos .youtube-video {
     height: 45%;
+  }
+}
+
+@media (min-width: 800px) {
+  .youtube-videos .youtube-video {
+    width: 80%;
+    height: 100%;
+    margin-bottom: 4em;
   }
 }
 

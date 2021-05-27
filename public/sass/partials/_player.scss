@@ -6,13 +6,18 @@
     height: 200vh;
   }
 
+  @media (min-width: 800px) {
+    height: 260vh;
+    font-size: 1.5rem;
+  }
+
   .player {
     width: 100vw;
     height: 80px;
 
     @media (min-width: 550px) {
       display: block;
-      margin: auto;
+      margin: 0 auto 2em auto;
       width: 60vw;
     }
   }
@@ -20,7 +25,10 @@
   .song-desc {
     width: 35ch;
     margin: auto;
-    margin-bottom: 3em;
+
+    @media (min-width: 550px) {
+      margin-bottom: 3em;
+    }
   }
 
   h2 {

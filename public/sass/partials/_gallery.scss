@@ -6,6 +6,10 @@
   @media (min-width: 550px) {
     height: 200vh;
   }
+
+  @media (min-width: 800px) {
+    height: 240vh;
+  }
 }
 
 .gallery-img {
@@ -15,5 +19,9 @@
 
   @media (min-width: 550px) {
     height: 66.666vh;
+  }
+
+  @media (min-width: 800px) {
+    height: 80vh;
   }
 }
