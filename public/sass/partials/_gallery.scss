@@ -14,6 +14,11 @@
   @media (min-width: 1000px) {
     height: 99em;
   }
+
+  @media (min-width: 1400px) {
+    height: 90em;
+    margin-top: 10em;
+  }
 }
 
 .gallery-img {
@@ -31,5 +36,10 @@
 
   @media (min-width: 1000px) {
     height: 33em;
+  }
+
+  @media (min-width: 1400px) {
+    height: 30em;
+    width: 30em;
   }
 }

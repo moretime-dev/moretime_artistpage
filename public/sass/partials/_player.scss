@@ -11,6 +11,11 @@
     font-size: 1.5rem;
   }
 
+  @media (min-width: 1400px) {
+    height: 50em;
+    font-size: 1.5rem;
+  }
+
   .player {
     width: 100vw;
     height: 80px;
@@ -19,6 +24,12 @@
       display: block;
       margin: 0 auto 2em auto;
       width: 60vw;
+    }
+
+    @media (min-width: 1400px) {
+      display: block;
+      margin: 0 auto 2em auto;
+      width: 27em;
     }
   }
 

@@ -7,7 +7,7 @@ section {
 
   @media (min-width: 550px) {
     display: block;
-    height: 170vh;
+    height: 38em;
   }
 
   @media (min-width: 750px) {
@@ -15,7 +15,7 @@ section {
   }
 
   @media (min-width: 1000px) {
-    height: 110vh;
+    height: 85em;
   }
 
   .hero-img {
@@ -41,7 +41,11 @@ section {
   }
 
   .text {
-    height: 30vh;
+    height: 12em;
+
+    @media (min-width: 550px) {
+      height: 8em;
+    }
 
     @media (min-width: 750px) {
       height: 10em;
@@ -55,7 +59,7 @@ section {
       font-size: 2.5rem;
       font-weight: $fw-b;
       letter-spacing: 0.2em;
-      margin-top: 1.3em;
+
       margin-bottom: 0.2em;
     }
 
@@ -65,7 +69,6 @@ section {
       font-style: italic;
       font-size: 1.3rem;
       margin-top: 0;
-      margin-bottom: 2.75em;
     }
     @media (min-width: 550px) {
       h1 {
@@ -98,10 +101,16 @@ section {
       width: 60%;
     }
 
-    @media (min-width: 1200px) {
+    @media (min-width: 1000px) {
       display: block;
       margin: 0 auto;
       width: 60%;
+    }
+
+    @media (min-width: 1400px) {
+      display: block;
+      margin: 0 auto;
+      width: 40em;
     }
   }
 
@@ -114,10 +123,18 @@ section {
     @media (min-width: 550px) {
       display: none;
     }
+
     @media (min-width: 750px) {
       display: block;
       margin: auto;
       width: 60%;
+      height: 15%;
+    }
+
+    @media (min-width: 1400px) {
+      display: block;
+      margin: auto;
+      width: 40em;
       height: 15%;
     }
   }

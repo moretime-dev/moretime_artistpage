@@ -7,7 +7,7 @@
   @media (min-width: 550px) {
     display: block;
     margin: auto;
-    height: 200vh;
+    height: 38em;
   }
 
   @media (min-width: 750px) {
@@ -73,7 +73,7 @@
       width: 60vw;
 
       .icon {
-        width: 7vw;
+        width: 6em;
       }
     }
 
@@ -82,21 +82,20 @@
     }
   }
   .icons {
+    width: 100%;
     display: flex;
-    width: 55vw;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     @media (min-width: 550px) {
-      display: block;
-      margin: auto;
     }
+
     @media (min-width: 800px) {
       display: flex;
       justify-content: center;
     }
   }
   .icon {
-    width: 15vw;
+    width: 12vw;
 
     @media (min-width: 800px) {
       margin-right: 2em;
