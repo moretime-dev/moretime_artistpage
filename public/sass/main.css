@@ -613,6 +613,93 @@ section .can-you-cover {
   }
 }
 
+.menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.menu-button,
+.close-button {
+  position: absolute;
+  font-size: 2rem;
+  color: red;
+  top: 0;
+  left: 0;
+  background: transparent;
+  border: 0;
+}
+
+.menu-button:hover,
+.close-button:hover {
+  cursor: pointer;
+}
+
+.close-button {
+  display: none;
+  z-index: 4;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: -webkit-transform ease-in 200ms;
+  transition: -webkit-transform ease-in 200ms;
+  transition: transform ease-in 200ms;
+  transition: transform ease-in 200ms, -webkit-transform ease-in 200ms;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  background: #42396e66;
+}
+
+nav li {
+  text-align: center;
+}
+
+nav li:hover {
+  background: #42396eaa;
+}
+
+nav a {
+  display: inline-block;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  padding: calc(100vh / 12) 0;
+  line-height: 0;
+  width: 100%;
+}
+
+.nav-is-open nav {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
